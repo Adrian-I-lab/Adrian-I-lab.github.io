@@ -10,13 +10,6 @@
 main:
   - title: "CV"
     url: /cv/
-    
-  - title: "Portfolio"
-    url: /portfolio/
-  
-  - title: "Publications"
-    url: /publications/  
 
-  - title: "Consulting"
-    url: /consulting/
-    
+  - title: "Publications"
+    url: /publications/

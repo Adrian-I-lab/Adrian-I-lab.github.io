@@ -11,6 +11,13 @@ redirect_from:
 
 # Work and Academic Experience
 
+## 2026 – Present  
+### **Research Officer (Bioinformatician), Systems Virology Lab, QIMR Berghofer**
+- Investigate viral infection dynamics and host responses, focusing on **encephalitis and neurotropism**, using virus-inclusive single-cell RNA-seq and integrative multi-omics to define mechanisms of viral pathogenesis and candidate antiviral targets.
+- Develop agentic, AI-centric software for reproducible, semi-autonomous bioinformatic analysis.
+
+---
+
 ## 2025 – Present  
 ### **Bioinformatician, Statistical Services Unit, QIMR Berghofer**
 - Lead initiatives to expand bioinformatics capability within the Statistics Department through seminars, workshops, and laboratory tours.
@@ -70,7 +77,7 @@ _Mucosal Immunology Laboratory, QIMR Berghofer / QUT_
 # Education
 
 ## 2022 – 2025  
-**Ph.D. in Bioinformatics and Immunology**  
+**Ph.D. in Bioinformatics and Immunology** (conferred 2026)  
 Queensland University of Technology (QUT)  
 _Conducted at QIMR Berghofer Medical Research Institute_
 
@@ -124,9 +131,9 @@ University of Queensland (UQ)
    *GFI1-driven transcriptional and epigenetic programs maintain CD8⁺ T-cell stemness and persistence.*  
    **Nature Immunology** (2025).
 
-2. Lu Y, **Ilich A**, Ferreira IB, Pickering DA, Troy S, Loukas A, Johnston R, Hoyte S, Waddell N, Navarro S.  
-   *AIP-2 treatment ameliorates colitis in the TNBS mouse model through novel immunomodulatory mechanisms.*  
-   **Manuscript submitted.**
+2. Lu Y, **Ilich A**, Ferreira IB, Ryan RYM, Pickering DA, Troy S, Hoyte SM, Johnston RL, Wong Y, Loukas A, Navarro S.  
+   *Optimized hookworm-derived biologic AIP-2NTQ48 restores mucosal tolerance and down-regulates colon cancer-associated gene expression in TNBS-induced colitis.*  
+   **Mucosal Immunology** (2026). doi:10.1016/j.mucimm.2026.03.005
 
 ---
 
@@ -158,7 +165,7 @@ University of Queensland (UQ)
 
 # Service & Engagement
 
-- **2025** – Co-desgined and led the *Pipelines, Reproducible Analyses, and Good Coding Practices* course at QIMR.
+- **2025** – Co-designed and led the *Pipelines, Reproducible Analyses, and Good Coding Practices* course at QIMR.
 - **2023–2025** – Co-led the annual *Introduction to R* course at QIMR.  
 - **2023–Present** – Co-founder, **QIMR Coding Hub**  
   - Institute-wide dry-lab community supporting coding, workflows, and troubleshooting.  
