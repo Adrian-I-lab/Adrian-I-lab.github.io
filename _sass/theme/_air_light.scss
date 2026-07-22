@@ -2,20 +2,20 @@
    Air skin, based on the Minimal Mistakes skin
    ========================================================================== */
 
-/* Color codes used for the theme */
-$primary-color              : #0092ca;
+/* Color codes used for the theme - Warm Light (ivory + terracotta) */
+$primary-color              : #b06a3f;                 // terracotta accent
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$light-primary-color        : #6b6459;                 // muted metadata tone
 
-$background                 : #eeeeee;
-$background-light           : mix(#fff, $background, 20%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #222831;
-$link                       : #393e46;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
-$footer                     : $primary-color;
+$background                 : #faf9f7;                 // warm ivory (never pure white)
+$background-light           : #ffffff;                 // raised surfaces
+$background-lighter         : #f2efe9;
+$text                       : #1c1a17;                 // near-black warm ink
+$link                       : #9c542c;                 // terracotta link (AA on ivory)
+$link-dark                  : #7c3f1e;                 // hover (darker)
+$link-light                 : #b47a54;                 // visited (muted)
+$footer                     : #100f13;                 // dark footer (shared with dark theme)
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -41,8 +41,8 @@ $sidebar-screen-min-width   : 1024px;
     --global-footer-bg-color            : #{$footer};
     --global-border-color               : #{$light-primary-color};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-primary-color};
+    --global-code-background-color      : #{$background-lighter};
+    --global-code-text-color            : #{$link};
     --global-fig-caption-color          : #{$light-primary-color};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};

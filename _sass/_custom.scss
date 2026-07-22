@@ -1,0 +1,171 @@
+/* ==========================================================================
+   CUSTOM THEME POLISH - Refined Dark (Adrian Ilich)
+   Layered on top of the "air" skin. Imported last so it wins.
+   ========================================================================== */
+
+/* --- Global type rhythm ------------------------------------------------ */
+body {
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--global-link-color);
+  color: var(--global-bg-color);
+}
+
+/* Serif, tightly-set headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+h1 { line-height: 1.12; }
+
+/* Section headers (h2) get a hairline rule for scannability */
+.page__content {
+  h2 {
+    margin-top: 1.9em;
+    padding-bottom: 0.28em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  h3 { margin-top: 1.5em; }
+
+  /* Comfortable reading measure on prose pages */
+  > p,
+  > ul,
+  > ol,
+  > blockquote {
+    max-width: 68ch;
+  }
+}
+
+/* --- Links: subtle accent underline ----------------------------------- */
+.page__content a:not(.btn),
+.archive__item-excerpt a,
+.page__meta a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(217, 154, 91, 0.45);
+  padding-bottom: 0.5px;
+  transition: $global-transition;
+
+  &:hover {
+    color: var(--global-link-color-hover);
+    border-bottom-color: currentColor;
+  }
+}
+
+/* --- Masthead / top navigation ---------------------------------------- */
+.masthead {
+  background: var(--global-bg-color);
+  border-bottom: 1px solid var(--global-border-color);
+  box-shadow: none;
+
+  &:after { display: none; } /* remove the skin's gradient underline strip */
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a { font-family: $global-font-family; }
+
+  /* Site title (name) - serif, prominent */
+  .masthead__menu-item--lg a {
+    font-family: $header-font-family;
+    font-weight: 700;
+    font-size: 1.22em;
+    letter-spacing: -0.01em;
+  }
+
+  /* Accent hover underline on the nav links */
+  .visible-links a:before {
+    background: var(--global-link-color);
+    height: 2px;
+  }
+}
+
+#theme-icon { color: var(--global-link-color); }
+
+/* --- Sidebar author card ---------------------------------------------- */
+.author__avatar img {
+  border: 1px solid var(--global-border-color);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.28);
+}
+
+.author__name {
+  font-family: $header-font-family;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.author__bio { color: var(--global-text-color-light); }
+
+.author__urls {
+  li { padding: 0.15em 0; }
+  a:hover { color: var(--global-link-color-hover); }
+  .fa,
+  .fab,
+  .fas,
+  .ai { color: var(--global-link-color); }
+}
+
+/* --- Publications / archive list -------------------------------------- */
+.archive__item-title {
+  font-family: $header-font-family;
+  font-weight: 600;
+  margin-top: 0.9em;
+  line-height: 1.25;
+}
+
+.archive__subtitle {
+  font-family: $header-font-family;
+  border-bottom: 1px solid var(--global-border-color);
+  padding-bottom: 0.3em;
+}
+
+.list__item .archive__item {
+  padding-bottom: 0.4em;
+}
+
+.page__meta {
+  color: var(--global-text-color-light);
+  font-size: 0.82em;
+}
+
+/* --- Horizontal rules use the warm border tone ------------------------ */
+hr {
+  border-top: 1px solid var(--global-border-color);
+  margin: 2em 0;
+}
+
+/* --- Buttons ---------------------------------------------------------- */
+.btn {
+  border-radius: 6px;
+  font-family: $global-font-family;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* --- Footer: consistent dark bar in both themes ----------------------- */
+.page__footer {
+  background-color: #100f13;
+  color: #9b968d;
+  border-top: 1px solid #2e2c34;
+
+  a { color: #cbb39a; }
+  a:hover { color: #e2a869; }
+
+  .page__footer-follow .social-icons .fa,
+  .page__footer-follow .social-icons .fab,
+  .page__footer-follow .social-icons .fas { color: #9b968d; }
+}
+
+/* --- Focus visibility (a11y) ------------------------------------------ */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 2px;
+}

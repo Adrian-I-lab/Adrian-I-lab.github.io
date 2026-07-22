@@ -2,20 +2,20 @@
    Dark skin, based on the Minimal Mistakes skin
    ========================================================================== */
 
-/* Color codes used for the theme */
-$primary-color              : #00adb5;
+/* Color codes used for the theme - Refined Dark (warm charcoal + amber) */
+$primary-color              : #d99a5b;                 // warm amber accent
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$light-primary-color        : #9b968d;                 // muted metadata tone
 
-$background                 : #252a34;
-$background-light           : mix(#fff, $background, 20%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #eaeaea;
-$link                       : mix($primary-color, $text, 40%);
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
-$footer                     : mix(#000, $background, 30%);
+$background                 : #16151a;                 // deep warm charcoal
+$background-light           : #201f26;                 // raised surfaces / table head
+$background-lighter         : #2a2831;
+$text                       : #ece9e3;                 // off-white ink
+$link                       : #e2a869;                 // amber link
+$link-dark                  : #f1c191;                 // hover (brighter)
+$link-light                 : #c99a72;                 // visited (muted)
+$footer                     : #100f13;                 // near-black footer
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -41,15 +41,15 @@ html[data-theme="dark"] {
     --global-footer-bg-color            : #{$footer};
     --global-border-color               : #{$light-primary-color};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-primary-color};
+    --global-code-background-color      : #{$background-light};
+    --global-code-text-color            : #e6b98a;
     --global-fig-caption-color          : #{$light-primary-color};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-primary-color};
-    --global-thead-color                : #{$background-lighter};
+    --global-thead-color                : #{$background-light};
 }
