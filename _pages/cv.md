@@ -3,6 +3,7 @@ layout: archive
 title: "Curriculum vitae - Adrian Ilich"
 permalink: /cv/
 author_profile: true
+hide_page_title: true
 redirect_from:
   - /resume
 ---
