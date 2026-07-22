@@ -23,7 +23,7 @@ repository               : "adrian-i-lab/adrian-i-lab.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Adrian Ilich"
   pronouns         : "he/him"
   bio              : "Bioinformatician & Immunologist · Systems Virology, QIMR Berghofer"
