@@ -26,6 +26,9 @@ My background is in **computational immunology** (immune tolerance, allergic inf
 
 ## Recent News
 
+- **2026**, Released [*ollama-truncation-guard*](/projects/ollama-truncation-guard/), an open-source proxy that refuses LLM answers built on a silently truncated prompt
+- **2026**, Co-supervising 3 PhD students
+- **2026**, Presented a poster on JEV infection of human brain organoids at the AIDRC Symposium, Brisbane, with an [interactive 3D cell atlas](/projects/jev-3d-umap/)
 - **2026**, Joined the **Systems Virology** group at QIMR Berghofer as a Research Officer (Bioinformatician)
 - **2026**, **PhD conferred** (Immunology & Bioinformatics, QUT / QIMR Berghofer)
 - **2026**, Paper published in *Mucosal Immunology*

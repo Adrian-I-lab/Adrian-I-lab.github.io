@@ -140,6 +140,10 @@ University of Queensland (UQ)
 
 # Conference Presentations & Invited Talks
 
+## 2026
+- **Poster** – AIDRC Symposium, Brisbane  
+  *JEV infection of human brain organoids, with an [interactive 3D cell atlas](/projects/jev-3d-umap/)*
+
 ## 2025
 - **By abstract selection** – World Immune Regulation Meeting (WIRMXIX), Davos  
   *“Proteomic and Transcriptomic Insights into Diet-Induced Modulation of Neonatal T Cell Development”*
@@ -166,6 +170,7 @@ University of Queensland (UQ)
 
 # Service & Engagement
 
+- **2026–Present** – Co-supervisor of 3 PhD students.
 - **2025** – Co-designed and led the *Pipelines, Reproducible Analyses, and Good Coding Practices* course at QIMR.
 - **2023–2025** – Co-led the annual *Introduction to R* course at QIMR.  
 - **2023–Present** – Co-founder, **QIMR Coding Hub**  
