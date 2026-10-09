@@ -109,7 +109,8 @@ h1 { line-height: 1.12; }
 .author__bio { color: var(--global-text-color-light); }
 
 .author__urls {
-  li { padding: 0.15em 0; }
+  /* Let long location and employer lines wrap instead of being cut off */
+  li { padding: 0.15em 0; white-space: normal; }
   a:hover { color: var(--global-link-color-hover); }
   .fa,
   .fab,

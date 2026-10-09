@@ -130,11 +130,11 @@ University of Queensland (UQ)
 
 1. **Chaudhry MZ**, Chen E, Man HO, Jones A, Denman R, Yu H, Huang Q, **Ilich A**, Schreuder J, Navarro S, Tuong ZK, Belz GT.  
    *GFI1-driven transcriptional and epigenetic programs maintain CD8⁺ T-cell stemness and persistence.*  
-   **Nature Immunology** (2025).
+   **Nature Immunology** 26(6):894–907 (2025). doi:10.1038/s41590-025-02151-5
 
 2. Lu Y, **Ilich A**, Ferreira IB, Ryan RYM, Pickering DA, Troy S, Hoyte SM, Johnston RL, Wong Y, Loukas A, Navarro S.  
-   *Optimized hookworm-derived biologic AIP-2NTQ48 restores mucosal tolerance and down-regulates colon cancer-associated gene expression in TNBS-induced colitis.*  
-   **Mucosal Immunology** (2026). doi:10.1016/j.mucimm.2026.03.005
+   *Optimized hookworm-derived biologic, AIP-2<sub>NTQ48</sub> restores mucosal tolerance and down-regulates colon cancer-associated gene expression in TNBS-induced colitis.*  
+   **Mucosal Immunology** 19(3):100331 (2026). doi:10.1016/j.mucimm.2026.03.005
 
 ---
 

@@ -9,7 +9,7 @@ redirect_from:
 
 ## Profile
 
-I'm a bioinformatician and immunologist at **QIMR Berghofer**, working in the **Systems Virology** group. I combine high-dimensional single-cell sequencing with mechanistic biology to understand how viruses infect and reshape the host — currently focused on **viral encephalitis and neurotropism** (JEV, ZIKV in brain organoids) — and I build the computational tools and AI-assisted workflows that make that analysis faster and more reproducible.
+I'm a **Research Officer (Bioinformatician)** in the **Systems Virology** group at **QIMR Berghofer**, with a background in immunology. I combine high-dimensional single-cell sequencing with mechanistic biology to understand how viruses infect and reshape the host — currently focused on **viral encephalitis and neurotropism** (JEV, ZIKV in brain organoids) — and I build the computational tools and AI-assisted workflows that make that analysis faster and more reproducible.
 
 My expertise spans:
 
@@ -26,8 +26,9 @@ My background is in **computational immunology** — immune tolerance, allergic 
 
 ## Recent News
 
-- **2026** — Joined the **Systems Virology** group at QIMR Berghofer as a bioinformatician
+- **2026** — Joined the **Systems Virology** group at QIMR Berghofer as a Research Officer (Bioinformatician)
 - **2026** — **PhD conferred** (Immunology & Bioinformatics, QUT / QIMR Berghofer)
+- **2026** — Paper published in *Mucosal Immunology*
 - **2025** — Paper published in *Nature Immunology*
 - **2025** — First running of my *Pipelines, Reproducible Analyses & Good Coding Practices* course
 - **2025** — Presented at WIRMXIX, Davos, Switzerland

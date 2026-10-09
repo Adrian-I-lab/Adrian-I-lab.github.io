@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Adrian Ilich"
 title_separator          : "-"
 name                     : &name "Adrian Ilich"
-description              : &description "Academic Portfolio: Adrian Ilich"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Adrian Ilich, Research Officer (Bioinformatician) in Systems Virology at QIMR Berghofer. Single-cell sequencing, virus-host biology, and reproducible bioinformatics tools."
 url                      : https://adrian-i-lab.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Adrian Ilich"
   pronouns         : "he/him"
-  bio              : "Bioinformatician & Immunologist · Systems Virology, QIMR Berghofer"
+  bio              : "Research Officer (Bioinformatician) · Systems Virology, QIMR Berghofer"
   location         : "Brisbane, QLD, Australia"
   employer         : "QIMR Berghofer Medical Research Institute"
   uri              : # URL
@@ -140,8 +140,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.jpg" # Social media default site image
+og_description           : "Adrian Ilich, Research Officer (Bioinformatician) in Systems Virology at QIMR Berghofer. Single-cell sequencing, virus-host biology, and reproducible bioinformatics tools."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
