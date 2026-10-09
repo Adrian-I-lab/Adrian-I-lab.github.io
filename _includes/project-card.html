@@ -1,0 +1,11 @@
+{% include base_path %}
+<a class="project-card" href="{{ base_path }}{{ post.url }}">
+  {% if post.header.teaser %}
+    <img class="project-card__img" src="{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ post.teaser_alt | default: post.title }}" loading="lazy">
+  {% endif %}
+  <span class="project-card__body">
+    <span class="project-card__title">{{ post.title }}</span>
+    {% if post.excerpt %}<span class="project-card__excerpt">{{ post.excerpt | strip_html }}</span>{% endif %}
+    {% if post.tags %}<span class="project-card__tags">{% for t in post.tags %}<span class="project-card__tag">{{ t }}</span>{% endfor %}</span>{% endif %}
+  </span>
+</a>

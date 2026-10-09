@@ -1,15 +1,25 @@
 ---
-published: false
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Projects"
+permalink: /projects/
 author_profile: true
+redirect_from:
+  - /portfolio/
 ---
 
 {% include base_path %}
 
+<p class="projects__intro">Interactive figures, tools, and teaching material I have made public. Each page says what the project does, how it was built, and its limits.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% assign groups = "Interactive figures|Tools and software|Teaching" | split: "|" %}
+{% for group in groups %}
+  {% assign items = site.portfolio | where: "group", group | sort: "order" %}
+  {% if items.size > 0 %}
+  <h2 class="archive__subtitle">{{ group }}</h2>
+  <div class="project-grid">
+    {% for post in items %}
+      {% include project-card.html %}
+    {% endfor %}
+  </div>
+  {% endif %}
 {% endfor %}
-
