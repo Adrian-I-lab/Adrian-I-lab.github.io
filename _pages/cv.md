@@ -33,7 +33,6 @@ redirect_from:
 - Provide specialised consulting services across multi-omics (16S microbiome, bulk RNA-seq, sc/sn-multiome).
 - Perform end-to-end workflows: raw data processing, QC, statistical modelling, integrative pathway analysis, and publication-ready visualisations.
 - Deliver reproducible, well-documented reports emphasising biological mechanisms and translational insights.
-- Contracted by external clients including **Insigene**.
 
 ---
 
