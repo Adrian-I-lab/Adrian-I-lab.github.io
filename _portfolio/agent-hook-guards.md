@@ -52,7 +52,11 @@ Run with `bash run_tests.sh`. On 2026-10-10 every step passed on Python 3.9.6 an
 - It is coordination for a cooperative but fallible agent. It is **not a sandbox** and **not a security boundary**.
 - It does not stop a script written to disk and then run, a path built at run time inside an interpreter, or an obfuscated command.
 - It does not stop `git commit --no-verify`, a secret with no recognisable prefix, anything already in history, or a fresh clone where the git hooks were never installed.
-- The hook contract was checked by feeding the exact hook command shaped input. A live run inside Claude Code has not been recorded yet.
+- A live run inside Claude Code on 2026-10-10 covered reads only. Writes, deletes, and moves into the protected area are covered by the test cases, not by a live run.
 - It is a v0.1 prototype. Expect rough edges and breaking changes.
+
+## In progress
+
+The [`p3-next`](https://github.com/Adrian-I-lab/agent-hook-guards/tree/p3-next) branch adds a read-only guard for remote shells, a labelled synthetic prompt-injection corpus with a simple tripwire, and a PCA and UMAP map of the corpus embeddings. These are prototypes and not yet part of a release.
 
 MIT licence.
