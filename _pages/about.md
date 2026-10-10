@@ -26,6 +26,9 @@ My background is in **computational immunology** (immune tolerance, allergic inf
 
 ## Recent News
 
+- **2026**, Released [*quarto-bioinfo-report-template*](/projects/quarto-bioinfo-report-template/), an open-source Quarto template for bioinformatics reports with automated style checks
+- **2026**, Released [*plaintext-task-radar*](/projects/plaintext-task-radar/), an open-source tool that finds overdue and stale tasks in Markdown notes
+- **2026**, Released [*agent-hook-guards*](/projects/agent-hook-guards/), open-source guards that keep AI coding agents out of protected paths
 - **2026**, Released [*ollama-truncation-guard*](/projects/ollama-truncation-guard/), an open-source proxy that refuses LLM answers built on a silently truncated prompt
 - **2026**, Co-supervising 3 PhD students
 - **2026**, Presented a poster on JEV infection of human brain organoids at the AIDRC Symposium, Brisbane, with an [interactive 3D cell atlas](/projects/jev-3d-umap/)
