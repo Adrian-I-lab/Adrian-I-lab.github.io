@@ -26,6 +26,7 @@ My background is in **computational immunology** (immune tolerance, allergic inf
 
 ## Recent News
 
+- **2026**, Released *agent-hook-guards* 0.3.0 with a [UMAP map of prompt-injection embeddings](/projects/injection-embedding-map/), a single-cell workflow applied to language-model prompts
 - **2026**, Released [*quarto-bioinfo-report-template*](/projects/quarto-bioinfo-report-template/), an open-source Quarto template for bioinformatics reports with automated style checks
 - **2026**, Released [*plaintext-task-radar*](/projects/plaintext-task-radar/), an open-source tool that finds overdue and stale tasks in Markdown notes
 - **2026**, Released [*agent-hook-guards*](/projects/agent-hook-guards/), open-source guards that keep AI coding agents out of protected paths

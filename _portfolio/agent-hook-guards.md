@@ -55,8 +55,8 @@ Run with `bash run_tests.sh`. On 2026-10-10 every step passed on Python 3.9.6 an
 - A live run inside Claude Code on 2026-10-10 covered reads only. Writes, deletes, and moves into the protected area are covered by the test cases, not by a live run.
 - It is a v0.1 prototype. Expect rough edges and breaking changes.
 
-## In progress
+## Added in 0.3.0 (prototypes)
 
-The [`p3-next`](https://github.com/Adrian-I-lab/agent-hook-guards/tree/p3-next) branch adds a read-only guard for remote shells, a labelled synthetic prompt-injection corpus with a simple tripwire, and a PCA and UMAP map of the corpus embeddings. These are prototypes and not yet part of a release.
+Version 0.3.0 adds a read-only guard for remote shells, a labelled synthetic prompt-injection corpus with a simple tripwire, and a [PCA and UMAP map of the corpus embeddings](/projects/injection-embedding-map/). These are prototypes. The numbers above describe the v0.1 guards.
 
 MIT licence.
